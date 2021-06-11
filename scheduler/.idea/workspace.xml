@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7362b26b-c764-4012-9d89-6edbd7b98dd4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler_site/templates/scheduler_site/scheduler.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2355">
+              <caret line="157" column="108" selection-start-line="157" selection-start-column="108" selection-end-line="157" selection-end-column="108" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler_site/templates/scheduler_site/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler_site/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler_site/views.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scheduler_site/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Test2</find>
+      <find>name</find>
+      <find>return http</find>
+      <find>logout</find>
+      <find>messages</find>
+      <find>{{</find>
+      <find>submit</find>
+      <find>csv_string</find>
+      <find>.js</find>
+      <find>&lt;img</find>
+      <find>login</find>
+      <find>submitfgt61e</find>
+      <find>fa</find>
+      <find>drop</find>
+      <find>load</find>
+      <find>Password</find>
+      <find>submit fgt61</find>
+      <find>header</find>
+      <find>userInfo</find>
+      <find>sitec</find>
+      <find>sitecre</find>
+      <find>.html</find>
+      <find>*.csv</find>
+      <find>csv</find>
+      <find>select</find>
+      <find>CancelSubmit</find>
+      <find>readFile</find>
+      <find>navn</find>
+      <find>input</find>
+      <find>please conf</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>csvupload2</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sitecreator/static/sitecreator/stylesheet.css" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/logout.html" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/submitconfirm.html" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/usg.py" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/js/USG.js" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/USG.html" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/index.html" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/csvupload2.html" />
+        <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/login.html" />
+        <option value="$PROJECT_DIR$/sitecreator/templates/sitecreator/csvupload.html" />
+        <option value="$PROJECT_DIR$/sitecreator/urls.py" />
+        <option value="$PROJECT_DIR$/sitecreator/views.py" />
+        <option value="$PROJECT_DIR$/sitecreator/apiurls.py" />
+        <option value="$PROJECT_DIR$/scheduler_site/templates/scheduler_site/login.html" />
+        <option value="$PROJECT_DIR$/scheduler_site/templates/scheduler_site/csvupload.html" />
+        <option value="$PROJECT_DIR$/scheduler_site/urls.py" />
+        <option value="$PROJECT_DIR$/scheduler_site/templates/scheduler_site/scheduler.html" />
+        <option value="$PROJECT_DIR$/scheduler_site/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="845" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler_site" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler_site" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sitecreator/templates/sitecreator" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="orchestrator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7362b26b-c764-4012-9d89-6edbd7b98dd4" name="Default Changelist" comment="" />
+      <created>1600731461144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600731461144</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="845" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32739726" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/logout.html" />
+    <entry file="file://$PROJECT_DIR$/scheduler_site/static/sitecreator/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="248" column="23" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/footer.html" />
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/header.html" />
+    <entry file="file://$PROJECT_DIR$/scheduler/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="242" column="8" selection-start-line="242" selection-start-column="8" selection-end-line="242" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1641" column="11" selection-start-line="1641" selection-start-column="8" selection-end-line="1641" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/usg.py" />
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/js/USG.js" />
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/USG.html" />
+    <entry file="file://$PROJECT_DIR$/1.py" />
+    <entry file="file://$PROJECT_DIR$/js/USG.js" />
+    <entry file="file://$PROJECT_DIR$/scheduler/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="504" column="20" selection-start-line="504" selection-start-column="20" selection-end-line="504" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/messages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="66" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/portalbk.html" />
+    <entry file="file://$PROJECT_DIR$/sitecreator/viewsbk.py" />
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/csvupload2.html" />
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/index.html" />
+    <entry file="file://$PROJECT_DIR$/sitecreator/templates/sitecreator/submitconfirm.html" />
+    <entry file="file://$PROJECT_DIR$/scheduler_site/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/apiurls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/templates/scheduler_site/scheduler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="157" column="108" selection-start-line="157" selection-start-column="108" selection-end-line="157" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/templates/scheduler_site/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler_site/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

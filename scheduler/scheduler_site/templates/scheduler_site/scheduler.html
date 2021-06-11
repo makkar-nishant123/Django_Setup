@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+   <head>
+
+      <!-- Linking CSS -->
+      <meta charset="utf8">
+      <link rel="stylesheet" type="text/css" href="{% static 'scheduler_site/stylesheet.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'scheduler_site/bootstrap-4.3.1-dist/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <title>HNS Site Creator</title> <!-- Title of portal -->
+
+      <!-- Javscript below. -->
+      <script>
+          var csvFileText = null;
+          var selectedIndex = 0;
+
+          //Readfile function which gets triggered when we perform any selection on dropdown.
+          var readFile = function(event) {
+              document.getElementById("progressArea").innerHTML = "";
+              document.getElementById("fileOutputArea").innerHTML = "";
+              var input_dom = document.createElement('input');
+              selectedIndex = event.selectedIndex;
+              event.selectedIndex = 0;
+
+            //Initalizing filereader.
+              var reader = new FileReader();
+
+            //Onload event function for filereader.
+              reader.onload = function() {
+                  sFileName = input_dom.value
+
+            //Making sure file extension is csv.
+                  var sCurExtension = ".csv"
+                  var sxt = sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length)
+/*
+                  if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() != sCurExtension.toLowerCase()) {
+                      document.getElementById("fileOutputArea").innerHTML = "Error:Please upload file in *.csv format";
+                      document.getElementById("fileOutputArea").style.color = "red"
+                      document.getElementById("progressArea").innerHTML = "";
+                      document.getElementById("CancelSubmit").disabled = false;
+                  }*/
+
+               //Reading csv file text
+                  csvFileText = reader.result;
+                  var csvHeader = csvFileText.substr(0, csvFileText.indexOf("\n"));
+                  //var headerBlurb = "Please confirm your CSV header before you submit:<br/>";
+                  //document.getElementById("fileOutputArea").innerHTML = headerBlurb + csvHeader;
+                  //document.getElementById("csv_string").value = csvFileText;
+                  document.getElementById("confirmSubmit").disabled = false;
+                  document.getElementById("CancelSubmit").disabled = false;
+                  document.getElementById("progressArea").innerHTML = "";
+              };
+
+               //onabort event function for filereader.
+              reader.onabort = e => {
+
+                  document.getElementById("fileOutputArea").innerHTML = "Read error: could not read file";
+                  document.getElementById("confirmSubmit").disabled = true;
+              };
+
+
+             //Onchage event function for "file input" WebElement.
+              input_dom.onchange = e => {
+                  targetFile = input_dom.files[0];
+                  if (targetFile != null) {
+                      reader.readAsText(input_dom.files[0]);
+                  }
+                  if (targetFile != null) {
+                      document.getElementById("drop").options[selectedIndex].selected = true;
+                      // document.getElementById("drop").options[0].selected = true;
+                      console.log(123)
+                  } else {
+                      document.getElementById("fileOutputArea").innerHTML = "Read error: could not read file";
+                      document.getElementById("confirmSubmit").disabled = true;
+                      document.getElementById("progressArea").innerHTML = "";
+                  }
+
+              }
+
+               //Initalizing input_dom file input.
+              input_dom.type = 'file';
+              //input_dom.accept = '.*';
+              input_dom.name = 'csvFile';
+              input_dom.id = 'input';
+              input_dom.click();
+
+              document.getElementById("progressArea").innerHTML = "<progress>0%</progress>";
+
+          }
+            //Closing when we do cancel.
+          function closeProgress() {
+              document.getElementById("progressArea").innerHTML = "";
+              //document.getElementById("confirmSubmit").disabled = true;
+
+
+              console.log("Suspect Cancel was hit, no files selected.")
+          }
+
+         //Submitting file when we click "Confirm" after uploading file.
+          function submitting() {
+              document.getElementById("progressArea").innerHTML = "<progress>0%</progress>";
+              document.getElementById("confirmSubmit").disabled = true;
+              document.getElementById("confirmSubmit").value = "Submit in progress";
+
+
+          }
+
+    </script>
+      <!-- End of Javscript  -->
+
+</head>
+
+   <!-- Adding header -->
+<body>
+
+
+   <!-- Adding user details -->
+   <div class="std_content_div" id="user_frame" style="max-width:100%">
+      <div class="row" id="user_info_bar" style="max-width:100%">
+         <div class="col-10" id="welcome_bar">
+
+         </div>
+
+          <!-- Logout frame -->
+          <div class="col-2" id="logout_frame" align="right" >
+             <p>
+        <a href="./login" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-log-out"></span> Log out
+        </a>
+      </p> 
+      
+         </div>
+      </div>
+   </div>
+
+   <!-- Content for explainning portal. -->
+   <div class="std_content_div" id="main_content_frame" style="max-width:100%;">
+      <div class="row" style="min-height:40vh">
+         <div class="col-sm-4 col-md-6" id="instructions_tile">
+
+         </div>
+         <div class="col-sm-8 col-md-6" id="upload_tile">
+            <div id="upload_frame" style="padding:4px; height:100%; max-height:50vh; overflow-y:auto;">
+               <p>
+                  <br/>
+               <p>
+
+               <!-- Form for uploading and submitting the file . -->
+               <form action="{% url 'scheduler_site:submit fgt61e' %}" method="POST" onsubmit="submitting()">
+                  {% csrf_token %}
+            <input type="file"  id="Uploadfile"  value="Uploadfile" onclick="readFile(this);" onblur="closeProgress();"><br>
+
+                  <input type="input"  id="schedule_time"  placeholder="Enter schedule time">
+
+                  <br> <br>
+
+                  <textarea type="text" size="50" name="txtarea" placeholder="mapping column with : seprated" maxlength="1000000"style="font-family: Arial;font-size: 12pt;"></textarea>
+
+
+                  <!-- Dropwdown performing the file selection based on device . -->
+<!--                  <select name="drop" id="drop"-->
+<!--                     type="file" accept=".*"-->
+<!--                     onChange="readFile(this);"-->
+<!--                     onblur="closeProgress();"-->
+<!--                     >-->
+<!--                     <option  disabled="disabled" selected="selected" style="display:none;" id="Select" value="&#45;&#45;Select&#45;&#45;">&#45;&#45;Select Device&#45;&#45;</option>-->
+<!--                     <option  id="1" value="FortiGate-30E-3G4G-GBL">FortiGate-30E-3G4G-GBL</option>-->
+<!--                     <option  id="2" value="FortiGate-61E">FortiGate-61E</option>-->
+<!--                     <option  id="3" value="FortiGate-81E" >FortiGate-81E</option>-->
+<!--                     <option  id="4" value="FortiGate-60F" >FortiGate-60F</option>-->
+<!--                  </select>-->
+
+            <!-- Output area for showing csv file content or any error message.-->
+                  <p id = 'fileOutputArea'></p>
+
+               <!-- Progress bar which is displayed when we are uploading file. -->
+                  <div id="progressArea"></div>
+
+               <!-- Submit button to submit uploaded file. -->
+                  <input type="submit" disabled="true" id="confirmSubmit" value="Confirm Submission">
+
+               <!-- Clear button to reset uploaded file. -->
+                  <input type="button" disabled="true" id="CancelSubmit" value="Clear" onclick="window.location.reload();">
+
+
+                  <textarea name="csv_string" id = "csv_string" style="display:none; white-space:pre-wrap"></textarea>
+               </form>
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+</body>
+</html>
